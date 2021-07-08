@@ -9,6 +9,7 @@ public class helloController {
     @ResponseBody
     @RequestMapping("/nihao")
     public String hello(){
+
         return  "nihao springboot2";
 
     }
